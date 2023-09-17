@@ -17,6 +17,6 @@ jobs:
       
       - name: install repo
         run: |
-          git clone git@gitlab.com:kicad/libraries/kicad-footprint-generator.git
+          git clone https://gitlab.com/kicad/libraries/kicad-footprint-generator.git
           cd kicad-footprint-generator
           python3 setup.py
